@@ -220,15 +220,15 @@ pipeline {
                 // end of section_8
             }
         }
+    }
 
-        stage('Cleanup') {
-            steps {
-                // section_9: clean up
+    post {
+        always {
+            // section_9: clean up
 
-                // TODO
+            // TODO
 
-                // end of section_9
-            }
+            // end of section_9
         }
     }
 }
